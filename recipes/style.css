@@ -1,0 +1,137 @@
+/* CSS for recipes - The Odin Project */
+
+* {
+    /*font-family: 'Montserrat', Arial, Helvetica, sans-serif;*/
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#top-nav-ul{
+    background-color: white;
+    border-bottom: 3px solid pink;
+    height: 65px;
+    width: 100vw;
+    position: fixed; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    z-index:1;
+    overflow: auto;
+    
+}
+
+#top-nav-ul li{
+    display:inline-block;
+    padding: 12px;  
+    background-color:rgb(248, 244, 244);
+    border: solid 5px orange;
+    line-height: 20px;
+}
+
+.logo_text{
+    font-family: 'Skranji', cursive;
+    letter-spacing: 0.4px;
+    color: #cc9543;
+    
+}
+
+.logo_div{
+    display:flex;
+    border: solid 2px red;
+    
+
+#header{
+    background-color:grey;
+    position: relative;
+    top:85px;
+}
+
+a {
+    text-decoration: none;  
+    color:rgb(46, 44, 44);
+
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-decoration-thickness: 5px  ;
+}
+
+
+#span-text-nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 10px;
+    color:white;
+    
+}
+/*
+#time-container, #nutrition-container{
+    padding: 10px;
+    font-size: 14px;
+    display:flex;
+    margin: -10px 10px 10px 0px;
+}
+
+#time-container div {
+    color:white;
+    padding: 10px;
+}
+
+#nutrition-container div{
+    padding: 10px;
+    border: solid 1px grey;
+    background-color:rgb(230, 221, 218);
+}
+
+#chaiOats {
+    position: absolute;
+    right:20px;
+    top: 60px;
+    height: auto;
+    width: 38vw;
+    border-radius:8px;
+    z-index: 0;
+}
+
+#description-div {
+    width: 50vw;
+    margin-left: 10px;
+    color:rgb(46, 44, 44);
+}
+
+#description-div p {
+    margin-top:-10px;
+}
+
+#bottom-container{
+    display:flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 10px;
+    margin-top:-10px;
+   
+}
+#steps {
+width: 60%;
+color:rgb(46, 44, 44);
+}
+
+#ingredients{
+    padding: 0px 10px;
+    margin-left: 5px;
+    margin-top:50px;
+    background-color: rgb(230, 221, 218);
+    width:38vw;
+    color:rgb(46, 44, 44);
+    z-index: 1;
+}
+
+*/
