@@ -46,6 +46,7 @@ a:first-child{
     font-family:'Skranji', cursive;
     letter-spacing: 0.4px;
     color: var(--odin-color);
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -60,25 +61,56 @@ nav a:hover{
     0 0 150px rgb(250, 143, 227); */
 }
 
-.section{
+a:first-child:hover{
+    font-family:'Skranji', cursive;
+    letter-spacing: 0.4px;
+    color: var(--font-color);
+    text-shadow: 0 0 10px white;
+}
+
+ul {
+    list-style-type:none;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.sections{ 
     display:flex;
     flex-direction:row;
     color: var(--font-color);
+    border: solid 1px grey; 
+    height: auto;
 } 
 
-section{
-    border: solid 1px grey;
-    width: 100vw;
-    height: 88vh;
+#section_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    border-right: solid 1px grey; 
+}
+.wood{
+    background: url("https://www.rescatecoffee.com/wp-content/uploads/2016/03/bigstock-Wood-Texture-Plank-Grain-Backg-64710370-scaled.jpg");
+    background-size: cover;
 }
 
-#section_1 {
+#section_1 p{
+    font-size:20px;
+    line-height:150%;
+    margin: 20px 10px 40px 10px;
+    text-align: justify;
+    color: white;
+    text-shadow:0 0 20px rgb(138, 127, 123);
+    opacity: 80%;
+    }
+
+.chai-section_1{
     background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4473988.jpg&w=596&h=596&c=sc&poi=face&q=85") no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
 }
-
+/* to add here - section classes for each recipe with different background images */
 
 #name-div{
     /*box */
@@ -105,18 +137,22 @@ section{
    /* text-align-last:center;  Maybe remove*/
 }
 
+
+
 #section_2{
-    background-image: linear-gradient(to bottom right, rgba(255, 255, 255,0), rgba(55, 119, 179,1));
     background: url("https://media.istockphoto.com/photos/white-marble-texture-for-background-picture-id1271849617?b=1&k=20&m=1271849617&s=170667a&w=0&h=WYd2lSX75V01mgEQ3XOimr42tkUEg6uGCzi1NlBmqsw=");
     display: flex;
     flex-direction: column;
     background-size: cover;
     font-size: 16px;
+    width: 50vw;
 }
 
 #section_2 div{
     margin: 10px;   
 }
+
+
 
 #time-div, #nutrition-div {
     height: auto;
@@ -141,6 +177,40 @@ section{
     margin-top:50px;
     background-color: rgb(230, 221, 218);
 }
+
+/* IMAGES */
+#img-chai_small, #img-berry_small, #img-choc_small, #img-blueberry_small  {
+    height: 250px;
+    width: auto;
+    border: 1px solid grey;
+    outline: 1px solid black;
+    outline-offset: -10px;
+    margin: 50px 30px 5px 30px ; 
+    
+}
+
+#index-ul-recipes {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* to do - make page fully responsive at multiple view port sizes */
 

@@ -4,33 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="recipes/style.css"/> 
-    <!--<link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Montserrat"> -->
+    <link rel="stylesheet" type="text/css" href="recipeStyle.css"/> 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Oooh+Baby&family=Skranji&display=swap" rel="stylesheet"> 
 
     <title>Overnight Oats - Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
 
-    <h2>My favourite Overnight Oats recipes</h2>
-    <p>If you’ve never had overnight oatmeal, they’re basically a no-cook method of making oatmeal. 
+    <nav> <!-- to do: add links to links -->
+        <img id="logo-img" src="../odin-recipes/recipes/odin.svg">
+        <div id="nav-links">
+            <a href="#">THE ODIN PROJECT</a>
+            <a href="../odin-recipes/index.html">Recipes</a> <!--add drop down here, with coloured border and box shadow -->
+            <a href="#">Ingredients</a> 
+            <a href="#">Blog</a>
+            <a href="../index.html">Home</a>
+        </div>
+    </nav>
+
+
+    <section class="sections">
+        <div id="section_1" class="wood">
+            <div id="name-div"> <h1>My fave Overnight Oats recipes</h1>
+            </div>
+        <p>If you’ve never had overnight oatmeal, they’re basically a no-cook method of making oatmeal. 
         So, instead of cooking oatmeal on the stovetop or in the microwave, you soak the raw oats with milk. 
         That soaking process allows the oats to absorb the liquid and soften them enough to eat uncooked. 
         You only need to let the oats soak and rest in the fridge for 2 hours. 
         But, it’s ideal if you soak it overnight…hence the name overnight oats! </p>
-
-    <p>The next morning you have a ready-to-eat, delicious, creamy bowl or jar of “oatmeal.” 
+            
+        <p>The next morning you have a ready-to-eat, delicious, creamy bowl or jar of “oatmeal.” 
         The consistency is like a porridge or pudding. It makes for an easy convenient breakfast that has a more dense 
-        and creamy texture than warm oatmeal.</p>
+        creamy texture than warm oatmeal.</p>
         
-    <p>Best of all, you reap all the healthy benefits of oats in a fun grab-and-go breakfast</p>
+        <p>Best of all, you reap all the healthy benefits of oats in a fun grab-and-go breakfast</p>
+        
+        </div>
 
-    <ul>
-   <li> <a href="recipes/chai.html">Chai Pomegranate Overnight Oats</a> </li>
-   <li> <a href="recipes/berry.html">Berry Overnight Oats</a> </li>
-   <li> <a href="recipes/choc.html">Chocolate Almond Banana Overnight Oats</a> </li>
-   <li> <a href="recipes/blueberry.html">Blueberry Banana Pecan Overnight Oats</a></li>
-    </ul>
+        <section id="section_2">
+            <ul id="index-ul-recipes">
+                <li> <a href="recipes/chai.html"> <img id="img-chai_small" src="../odin-recipes/images/chai.svg" alt="image of chai oats">
+                 <br>Chai Pomegranate</a> </li>
+
+                 <li> <a href="recipes/berry.html"> <img id="img-berry_small" src="../odin-recipes/images/berry.svg" alt="image of berry oats">
+                <br>Mixed Berry & Chia</a> </li>
+
+                <li> <a href="recipes/choc.html"> <img id="img-choc_small" src="../odin-recipes/images/choc.svg" alt="image of chocolate oats">
+                <br>Choc Almond Banana </a> </li>
+            
+                <li> <a href="recipes/blueberry.html"> <img id="img-blueberry_small" src="../odin-recipes/images/blueberry.svg" alt="image of blueberry oats">
+                <br>Blueberry Banana Pecan</a></li>
+
+             </ul>
+        </section>
+    </section>
 </body>
 </html>
