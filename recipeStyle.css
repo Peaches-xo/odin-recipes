@@ -122,7 +122,13 @@ ul {
     background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4473991.jpg&w=596&h=596&c=sc&poi=face&q=85") no-repeat;
     background-size:cover;
 }
-/* to add here - section classes for each recipe with different background images */
+
+.blueberry-section_1{
+    background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4473980.jpg&w=596&h=596&c=sc&poi=face&q=85") no-repeat;
+    background-size: cover;
+}
+
+
 
 #name-div{
     /*box */
