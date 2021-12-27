@@ -106,8 +106,15 @@ ul {
     opacity: 80%;
     }
 
+/* LARGE IMAGES - diff class for each page */
+
 .chai-section_1{
     background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4473988.jpg&w=596&h=596&c=sc&poi=face&q=85") no-repeat;
+    background-size: cover;
+}
+
+.berry-section_1{
+    background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4473977.jpg&w=596&h=596&c=sc&poi=face&q=85") no-repeat;
     background-size: cover;
 }
 /* to add here - section classes for each recipe with different background images */
@@ -134,9 +141,8 @@ ul {
     color: --font-color;
     font-size: 2rem;
    font-family: 'Frank Ruhl Libre', serif;
-   /* text-align-last:center;  Maybe remove*/
+   text-align-last:center;  
 }
-
 
 
 #section_2{
@@ -145,29 +151,24 @@ ul {
     flex-direction: column;
     background-size: cover;
     font-size: 16px;
-    width: 50vw;
+     width: 50vw; 
+     padding: 10px;
 }
-
-#section_2 div{
-    margin: 10px;   
-}
-
 
 
 #time-div, #nutrition-div {
     height: auto;
-    width: 50vw;
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 1;
-    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px 0px;
     flex-flow:wrap;
+    border: solid 1px grey;
 }
 
 #time-div div, #nutrition-div div, #ingredients-div, #steps-div{
-    margin: 10px;
     font-size: 16px;
 }
 
